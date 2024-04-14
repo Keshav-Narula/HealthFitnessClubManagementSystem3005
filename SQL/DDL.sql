@@ -139,7 +139,7 @@ CREATE TABLE GroupClass(
 
 CREATE TABLE AttendingGroupClass(
   group_class_id INT REFERENCES GroupClass(group_class_id) ON DELETE CASCADE,
-  member_id INT REFERENCES Member(member_id) ON DELETE CASCADE
+  member_id INT REFERENCES Member(member_id) 
 );
 
 CREATE TABLE Admin (
