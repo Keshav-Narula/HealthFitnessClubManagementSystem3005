@@ -7,7 +7,7 @@ VALUES
 
 INSERT INTO HealthStats (height_cm, weight_lbs, body_fat_percentage, member_id)
 VALUES 
-(180, 170, 15, 1),
+(160, 150, 15, 1),
 (165, 130, 20, 2),
 (175, 150, 18, 3);
 
